@@ -2,7 +2,7 @@ import "./Filter.css";
 
 import { useState } from "react";
 
-function Filter({ onFilter }) {
+function Filter({ onFilter = () => {} }) {
   const [filterBy, setFilterBy] = useState(null);
 
   const handleClick = (e) => {

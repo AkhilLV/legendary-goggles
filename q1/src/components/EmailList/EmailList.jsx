@@ -54,4 +54,4 @@ function EmailList({ emails, favorites, read }) {
   );
 }
 
-export default Filter;
+export default EmailList;
